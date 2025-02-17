@@ -18,9 +18,11 @@ class BucketState:
         """Overrides the default implementation (unnecessary in Python 3)"""
         return not self.__eq__(other)
     
+    
     def __hash__(self):
         return hash((self.b1, self.b2)) 
     ''' - '''
+
 
     def __str__(self):
         return "(" + str(self.b1) + ", " + str(self.b2) + ")"

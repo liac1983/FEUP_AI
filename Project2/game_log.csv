@@ -1,0 +1,10 @@
+play,player,algorithm,position,time (s),score_white,score_black
+1,White,minimax,"(0,0)",0.1464,0,1
+2,Black,minimax,"(0,1)",0.1692,0,0
+3,White,minimax,"(1,0)",0.1923,0,1
+4,Black,minimax,"(1,1)",0.1918,0,0
+5,White,minimax,"(2,0)",0.2033,0,1
+6,Black,minimax,"(0,2)",0.2034,0,0
+,,,,,,
+Board Size,,13,,,,
+Total,Winner,Black,,13.18,,
